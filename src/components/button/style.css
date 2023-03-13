@@ -1,0 +1,30 @@
+@import "../../style/variables.css";
+
+.button__primary {
+  padding: 1rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--background-light);
+
+  cursor: pointer;
+}
+
+.button__outline {
+  padding: 1rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: var(--background-light);
+  color: var(--primary-color);
+
+  cursor: pointer;
+}
+
+.button__ghost {
+  padding: 1rem;
+  border: none;
+  background-color: transparent;
+  color: var(--primary-color);
+
+  cursor: pointer;
+}

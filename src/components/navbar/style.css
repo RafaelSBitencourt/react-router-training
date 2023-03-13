@@ -1,0 +1,9 @@
+@import "../../style/variables.css";
+
+.navbar {
+  background-color: var(--background-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
